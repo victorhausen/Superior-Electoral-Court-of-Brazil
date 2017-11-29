@@ -33,3 +33,4 @@ for(i in seq(1998, 2014, 4)){
 }
 
 write.xlsx(sheetName = "Senadores", row.names = F, x = data, file = "senate_candidates_1998-2014.xlsx")
+write.csv(row.names = F, x = data, file = "senate_candidates_1998-2014.xlsx")
